@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-	int array[5]{1, 2, 3, 4, 5};
+	int array[5]{ 1, 2, 3, 4, 5 };
 
 	cout << array << " - " << *array << endl;
 	cout << &array[0] << " - " << array[0] << endl;
